@@ -6641,6 +6641,7 @@ GameObject:
   - component: {fileID: 906550147}
   - component: {fileID: 906550146}
   - component: {fileID: 906550145}
+  - component: {fileID: 906550148}
   m_Layer: 0
   m_Name: PLAYER
   m_TagString: Untagged
@@ -6680,7 +6681,7 @@ MonoBehaviour:
   speed: 10
   jumpForce: 12.4
   feetPosition: {fileID: 1541118519}
-  jumpCheckRadius: 0.05
+  jumpCheckRadius: 0.3555
   whatIsGround:
     serializedVersion: 2
     m_Bits: 64
@@ -6708,9 +6709,9 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
-  m_CollisionDetection: 1
+  m_CollisionDetection: 0
   m_Constraints: 4
 --- !u!61 &906550147
 BoxCollider2D:
