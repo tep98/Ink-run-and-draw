@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float speed;
+    private float moveInput;
 
     [SerializeField] private float jumpForce;
     [SerializeField] private Transform feetPosition;
@@ -18,7 +19,7 @@ public class PlayerController : MonoBehaviour
     private Animator playerAnim;
     private bool isRun;
 
-    private void Awake()
+    private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         sprite = GetComponentInChildren<SpriteRenderer>();
@@ -26,18 +27,26 @@ public class PlayerController : MonoBehaviour
         playerAnim = GetComponentInChildren<Animator>();
     }
     
-    private void Update()
+    private void FixedUpdate()
     {
-        if (Input.GetButton("Horizontal"))
+        moveInput = Input.GetAxis("Horizontal");
+        rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
+
+        if (moveInput > 0)
         {
-            Run();
             playerAnim.SetBool("isRun", true);
-            isRun = true;
+            sprite.flipX = false;
         }
-        else if (isRun)
+
+        else if (moveInput < 0)
+        {
+            playerAnim.SetBool("isRun", true);
+            sprite.flipX = true;
+        }
+
+        else if (moveInput == 0)
         {
             playerAnim.SetBool("isRun", false);
-            isRun = false;
         }
 
         isOnGround = Physics2D.OverlapCircle(feetPosition.position, jumpCheckRadius, whatIsGround);
@@ -55,13 +64,5 @@ public class PlayerController : MonoBehaviour
         {
             playerAnim.SetBool("isJump", true);
         }
-    }
-
-    private void Run()
-    {
-        Vector3 direction = transform.right * Input.GetAxis("Horizontal");
-        transform.position = Vector3.MoveTowards(transform.position, transform.position + direction, speed * Time.deltaTime);
-
-        sprite.flipX = direction.x < 0f;
     }
 }
