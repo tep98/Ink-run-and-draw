@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2536268569427704495}
   - component: {fileID: 6396320227313368934}
   - component: {fileID: -3578814580610369351}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LinePrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
