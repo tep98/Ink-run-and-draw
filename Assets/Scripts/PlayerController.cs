@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private LayerMask whatIsGround;
     [SerializeField] private bool isOnGround;
 
+    public GameObject currentLever;
+
     private Rigidbody2D rb;
     private SpriteRenderer sprite;
 
@@ -64,5 +66,14 @@ public class PlayerController : MonoBehaviour
         {
             playerAnim.SetBool("isJump", true);
         }
+
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+        {
+            if (other.gameObject.tag == "Lever")
+            {
+                currentLever= other.gameObject;
+            }
+        }
 }
