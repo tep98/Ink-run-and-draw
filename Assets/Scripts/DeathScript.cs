@@ -11,8 +11,13 @@ public class DeathScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        KillPlayer();
         Destroy(other.gameObject);
-        screenAnim.SetTrigger("killPlayer");     
+    }
+
+    public void KillPlayer()
+    {
+        screenAnim.SetTrigger("killPlayer");
     }
 
     public void RestartScene()
