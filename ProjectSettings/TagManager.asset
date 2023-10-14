@@ -6,7 +6,7 @@ TagManager:
   tags:
   - DrawingArea
   - Cursor
-  - Enemy
+  - Lever
   layers:
   - Default
   - TransparentFX
