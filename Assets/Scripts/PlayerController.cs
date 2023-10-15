@@ -66,7 +66,6 @@ public class PlayerController : MonoBehaviour
         {
             playerAnim.SetBool("isJump", true);
         }
-
     }
 
     private void OnTriggerEnter2D(Collider2D other)
