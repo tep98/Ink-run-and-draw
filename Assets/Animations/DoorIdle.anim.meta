@@ -1,11 +1,6 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Animations/DoorIdle.anim.meta
 guid: ecb861379321c0f4396352feb3cc412b
 NativeFormatImporter:
-========
-guid: 0af16e8e974912d42943311b075973af
-DefaultImporter:
->>>>>>>> origin/main:Assets/Scenes/LevelChoice.unity.meta
   externalObjects: {}
   mainObjectFileID: 7400000
   userData: 

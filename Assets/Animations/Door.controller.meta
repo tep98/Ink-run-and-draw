@@ -1,12 +1,6 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Animations/Door.controller.meta
 guid: 4a8bb6bb5711cb1408fb6e8a55e7d387
 NativeFormatImporter:
-========
-guid: 50a6d62b7613c3549a8455323b71f6db
-folderAsset: yes
-DefaultImporter:
->>>>>>>> origin/main:Assets/Scripts/Buttons.meta
   externalObjects: {}
   mainObjectFileID: 9100000
   userData: 
