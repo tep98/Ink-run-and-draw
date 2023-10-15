@@ -6,7 +6,6 @@ public class LeverSwitchLeft : MonoBehaviour
 {
     private Animator leverAnim;
     private Lever leverManager;
-    private bool switchLever = false;
     [SerializeField] private GameObject lever;
 
     private void Start()
@@ -18,7 +17,7 @@ public class LeverSwitchLeft : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other)
     {
-        leverManager.AnimSwitch(switchLever);
+        leverManager.EnableLever();
     }
 }
 

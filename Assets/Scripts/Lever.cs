@@ -6,8 +6,6 @@ public class Lever : MonoBehaviour
 {
     [SerializeField] private GameObject leverObj;
     public bool leverON;
-    private PlayerController playerControlManager;
-    private GameObject leverExtern;
 
     private Animator leverAnim;
 
@@ -16,32 +14,15 @@ public class Lever : MonoBehaviour
         leverAnim = GetComponent<Animator>();
     }
 
-    private void Update()
+    public void EnableLever()
     {
-        playerControlManager = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
-        leverExtern = playerControlManager.currentLever;
-
-        leverObj = leverExtern;
-
-        if (leverObj!=null)
-        {
-            if (Input.GetKeyDown(KeyCode.Alpha1))
-            {
-                leverON = true;
-                leverAnim.SetBool("enable", true);
-
-            }
-
-            if (Input.GetKeyDown(KeyCode.Alpha2))
-            {
-                leverON = false;
-                leverAnim.SetBool("enable", false);
-            }
-        }
+        leverON = true;
+        leverAnim.SetBool("enable", true);
     }
 
-    public void AnimSwitch(bool enableVar)
+    public void DisableLever()
     {
-        leverAnim.SetBool("enable", !enableVar);
+        leverON = false;
+        leverAnim.SetBool("enable", false);
     }
 }
