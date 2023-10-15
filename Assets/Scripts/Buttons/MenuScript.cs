@@ -12,10 +12,6 @@ public class MenuScript : MonoBehaviour
     }
 
     //Main Menu
-    public void StartBtn()
-    {
-        SceneManager.LoadScene("LevelChoice");
-    }
 
     public void Exit()
     {
