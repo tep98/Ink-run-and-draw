@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2536268569427704495}
   - component: {fileID: 6396320227313368934}
   - component: {fileID: 8873233574553256017}
+  - component: {fileID: 1511058454617736036}
   - component: {fileID: -3578814580610369351}
   m_Layer: 6
   m_Name: LinePrefab
@@ -165,6 +166,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1511058454617736036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7870423424910324212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3b3f0e7993188468c281234dbb790a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifetime: 2
 --- !u!68 &-3578814580610369351
 EdgeCollider2D:
   m_ObjectHideFlags: 0
