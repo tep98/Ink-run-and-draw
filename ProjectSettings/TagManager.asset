@@ -7,6 +7,8 @@ TagManager:
   - DrawingArea
   - Cursor
   - Lever
+  - Enemy
+  - VisualSwitcher
   layers:
   - Default
   - TransparentFX
