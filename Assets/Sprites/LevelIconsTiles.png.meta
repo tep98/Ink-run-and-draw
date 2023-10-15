@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -89,7 +89,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -284,7 +284,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      LevelIconsTiles_0: 928294269625494008
+      LevelIconsTiles_1: 1450394245631945079
+      LevelIconsTiles_2: 4022746634873385522
+      LevelIconsTiles_3: -5368228199916161604
+      LevelIconsTiles_4: 5494931570602615664
+      LevelIconsTiles_5: -2328881580917960357
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
