@@ -9,6 +9,13 @@ public class Lever : MonoBehaviour
     private PlayerController playerControlManager;
     private GameObject leverExtern;
 
+    private Animator leverAnim;
+
+    private void Start()
+    {
+        leverAnim = GetComponent<Animator>();
+    }
+
     private void Update()
     {
         playerControlManager = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
@@ -20,18 +27,21 @@ public class Lever : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Alpha1))
             {
-                //animator
                 leverON = true;
-                leverObj.SetActive(true);
+                leverAnim.SetBool("enable", true);
 
             }
 
             if (Input.GetKeyDown(KeyCode.Alpha2))
             {
-                //animator
                 leverON = false;
-                leverObj.SetActive(false);
+                leverAnim.SetBool("enable", false);
             }
         }
+    }
+
+    public void AnimSwitch(bool enableVar)
+    {
+        leverAnim.SetBool("enable", !enableVar);
     }
 }
