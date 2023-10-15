@@ -10,6 +10,7 @@ public class DrawingScript : MonoBehaviour
     private GameObject currentLine;
     private LineRenderer lineRenderer;
     private EdgeCollider2D edgeCollider;
+    [SerializeField] private GameObject pauseUI;
 
     private void Update()
     {
@@ -26,6 +27,12 @@ public class DrawingScript : MonoBehaviour
                 UpdateLine(mousePos);
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                pauseUI.SetActive(true);
+                Time.timeScale = 0;
+            }
     }
 
     void CreateLine()
