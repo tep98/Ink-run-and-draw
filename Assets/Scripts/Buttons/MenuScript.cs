@@ -22,6 +22,7 @@ public class MenuScript : MonoBehaviour
     //PauseMenu
     public void MenuBtn()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene("MainMenu");
     }
 }
