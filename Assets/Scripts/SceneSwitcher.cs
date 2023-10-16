@@ -27,8 +27,7 @@ public class SceneSwitcher : MonoBehaviour
         {
             switch (sceneName)
             {
-            case "Level 1":
-                    finishAnim.SetTrigger("take");   
+            case "Level 1":  
                     screenAnim.SetTrigger("nextScene");
                     finishObject.GetComponent<BoxCollider2D>().enabled = false;
                     break;

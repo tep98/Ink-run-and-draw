@@ -9,6 +9,6 @@ public class LoadNextScene : MonoBehaviour
 
     public void LoadNextSceneFunc()
     {
-        SceneManager.LoadScene(currentScene+1);
+        SceneManager.LoadScene(0);
     }
 }
