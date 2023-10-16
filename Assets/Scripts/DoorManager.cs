@@ -29,17 +29,17 @@ public class DoorManager : MonoBehaviour
 
 
 
-        if (GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().currentLever != null)
-        {
-            if (Input.GetKeyDown(KeyCode.Alpha1))
-            {
-                leverManager.EnableLever();
-            }
+        // if (GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().currentLever != null)
+        // {
+        //     if (Input.GetKeyDown(KeyCode.Alpha1))
+        //     {
+        //         leverManager.EnableLever();
+        //     }
 
-            if (Input.GetKeyDown(KeyCode.Alpha2))
-            {
-                leverManager.DisableLever();
-            }
-        }
+        //     if (Input.GetKeyDown(KeyCode.Alpha2))
+        //     {
+        //         leverManager.DisableLever();
+        //     }
+        // }
     }
 }
