@@ -75,4 +75,34 @@ public class PlayerController : MonoBehaviour
                 currentLever= other.gameObject;
             }
         }
+    
+    public void ActivateCurrentLever()
+    {
+        if (currentLever != null)
+        {
+            currentLever.GetComponent<Lever>().EnableLever();
+        }
+    }
+
+    public void DeactivateCurrentLever()
+    {
+        if (currentLever != null)
+        {
+            currentLever.GetComponent<Lever>().DisableLever();
+        }
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            ActivateCurrentLever();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            DeactivateCurrentLever();
+        }
+    }
+
 }
