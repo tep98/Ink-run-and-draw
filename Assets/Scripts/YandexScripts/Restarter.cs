@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PointSwitcher : MonoBehaviour
+public class Restarter : MonoBehaviour
 {
     private Spawnpoints spawnpointManager;
+    [SerializeField] private GameObject deathTrigger;
     [SerializeField] private GameObject spawnpointObject;
-    public int pointIndex;
 
     private void Start()
     {
@@ -15,9 +15,7 @@ public class PointSwitcher : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            spawnpointManager.SetCurrentSpawnpoint(pointIndex);
-        }
+        //ad restart
+        spawnpointManager.Spawn();
     }
 }

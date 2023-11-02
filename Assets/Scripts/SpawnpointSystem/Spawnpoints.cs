@@ -6,15 +6,17 @@ public class Spawnpoints : MonoBehaviour
 {
     public GameObject[] spawnPoint;
     public GameObject currentPoint;
+    public int currentPointIndex;
     [SerializeField] private GameObject player;
 
-    public void SetCurrentSpawnpoint(GameObject newSpawnpoint)
+    public void SetCurrentSpawnpoint(int index)
     {
-        currentPoint = newSpawnpoint;
+        currentPointIndex = index;
+        currentPoint = spawnPoint[currentPointIndex];
     }
 
     public void Spawn()
     {
-        player.transform.position = currentPoint.transform.position;
+        player.transform.position = spawnPoint[currentPointIndex].transform.position;
     }
 }
