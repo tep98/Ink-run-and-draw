@@ -4,19 +4,17 @@ using UnityEngine;
 
 public class Spawnpoints : MonoBehaviour
 {
-    public Transform[] spawnPoint;
-    [SerializeField] private GameObject currentPoint;
+    public GameObject[] spawnPoint;
+    public GameObject currentPoint;
     [SerializeField] private GameObject player;
 
-    // Start is called before the first frame update
-    void Start()
+    public void SetCurrentSpawnpoint(GameObject newSpawnpoint)
     {
-        player.transform.position = currentPoint.transform.position;
+        currentPoint = newSpawnpoint;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Spawn()
     {
-        
+        player.transform.position = currentPoint.transform.position;
     }
 }
