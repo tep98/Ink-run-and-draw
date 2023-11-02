@@ -8,6 +8,13 @@ public class Spawnpoints : MonoBehaviour
     public GameObject currentPoint;
     public int currentPointIndex;
     [SerializeField] private GameObject player;
+    [SerializeField] private GameObject restartCanvas;
+
+    private void Start()
+    {
+        currentPointIndex = Progress.Instance.PlayerInfo.Spawnpoint;
+        currentPoint = spawnPoint[currentPointIndex];
+    }
 
     public void SetCurrentSpawnpoint(int index)
     {
@@ -18,5 +25,12 @@ public class Spawnpoints : MonoBehaviour
     public void Spawn()
     {
         player.transform.position = spawnPoint[currentPointIndex].transform.position;
+        restartCanvas.SetActive(false);
+    }
+
+    public void GoToStart()
+    {
+        player.transform.position = spawnPoint[0].transform.position;
+        restartCanvas.SetActive(false);
     }
 }
