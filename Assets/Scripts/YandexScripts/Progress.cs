@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 [System.Serializable]
 public class PlayerInfo
 {
-    public int Level = 0;
+    public int Level = 1;
     public int Spawnpoint = 0;
     public bool haveBrush = false;
 }

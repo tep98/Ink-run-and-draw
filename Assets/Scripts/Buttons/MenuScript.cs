@@ -5,14 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuScript : MonoBehaviour
 {
-    //LevelChoice
-    public void FirstLevel()
-    {
-        SceneManager.LoadScene("Level 1");
-    }
-
     //Main Menu
-
     public void Exit()
     {
         Application.Quit();
