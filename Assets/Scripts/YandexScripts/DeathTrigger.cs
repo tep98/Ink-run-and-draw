@@ -16,6 +16,6 @@ public class DeathTrigger : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         restartCanvas.SetActive(true);
-        spawnpointManager.Spawn();  
+        spawnpointManager.TempSpawn();  
     }
 }

@@ -3408,7 +3408,7 @@ GameObject:
   m_Component:
   - component: {fileID: 185636780}
   - component: {fileID: 185636779}
-  - component: {fileID: 185636778}
+  - component: {fileID: 185636781}
   - component: {fileID: 185636777}
   m_Layer: 0
   m_Name: Finish
@@ -3463,18 +3463,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &185636778
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 185636776}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e5b968647046464189521c2005e0416, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &185636779
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3542,6 +3530,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &185636781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185636776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d073e0fe8e69674391ac53b01981e15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextLevelNumber: 2
 --- !u!1 &186174491
 GameObject:
   m_ObjectHideFlags: 0
@@ -5848,6 +5849,7 @@ Transform:
   - {fileID: 61546131}
   - {fileID: 1350284439}
   - {fileID: 861183696}
+  - {fileID: 1143530731}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &531098588
@@ -93533,6 +93535,7 @@ MonoBehaviour:
   currentPointIndex: 0
   player: {fileID: 906550143}
   restartCanvas: {fileID: 439872276}
+  adTimer: {fileID: 693655840}
 --- !u!4 &675646813
 Transform:
   m_ObjectHideFlags: 0
@@ -93811,7 +93814,7 @@ GameObject:
   - component: {fileID: 693655843}
   - component: {fileID: 693655842}
   m_Layer: 5
-  m_Name: Text (Legacy)
+  m_Name: Timer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -95094,6 +95097,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c8fb2986f5829a488441d8f6c286a3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  music: {fileID: 675472624}
 --- !u!4 &842930380
 Transform:
   m_ObjectHideFlags: 0
@@ -98115,11 +98119,11 @@ Transform:
   m_GameObject: {fileID: 1143530727}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -46.55, y: -35.6, z: -57.23901}
+  m_LocalPosition: {x: -45.847004, y: -36.675793, z: -35.000328}
   m_LocalScale: {x: 4.275, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 507951918}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1143530732
 MonoBehaviour:
@@ -99304,6 +99308,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnpointObject: {fileID: 675646811}
+  music: {fileID: 675472624}
 --- !u!224 &1302570686
 RectTransform:
   m_ObjectHideFlags: 0
@@ -107287,7 +107292,6 @@ SceneRoots:
   - {fileID: 185636780}
   - {fileID: 1172617205}
   - {fileID: 675646813}
-  - {fileID: 1143530731}
   - {fileID: 1302570686}
   - {fileID: 842930380}
   - {fileID: 73087832}

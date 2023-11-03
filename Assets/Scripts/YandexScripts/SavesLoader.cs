@@ -6,11 +6,6 @@ public class SavesLoader : MonoBehaviour
 {
     private void Start()
     {
-        
-    }
-
-    void Update()
-    {
-        
+        // Progress.Instance.LoadExtern();
     }
 }

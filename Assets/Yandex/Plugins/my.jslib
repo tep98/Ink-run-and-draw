@@ -21,6 +21,27 @@ mergeInto(LibraryManager.library, {
     })
   },
 
+  AdBonus : function(){
+
+    ysdk.adv.showRewardedVideo({
+      callbacks: {
+        onOpen: () => {
+          console.log('Video ad open.');
+        },
+        onRewarded: () => {
+          console.log('Rewarded!');
+        },
+        onClose: () => {
+          console.log('Video ad closed.');
+          myGameInstance.SendMessage("LevelManager", "GetBonus");
+        }, 
+        onError: (e) => {
+          console.log('Error while open video ad:', e);
+        }
+      }
+    })
+  },
+
   StartAdBanner : function(){
 
     ysdk.adv.showFullscreenAdv({
