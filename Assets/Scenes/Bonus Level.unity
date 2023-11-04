@@ -204,7 +204,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Watch
+  m_Text: "\u0421\u043C\u043E\u0442\u0440\u0435\u0442\u044C"
 --- !u!222 &34185036
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3944,6 +3944,7 @@ GameObject:
   - component: {fileID: 203146062}
   - component: {fileID: 203146064}
   - component: {fileID: 203146063}
+  - component: {fileID: 203146065}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -4003,7 +4004,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Setting
+  m_Text: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
 --- !u!222 &203146064
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4012,6 +4013,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 203146061}
   m_CullTransparentMesh: 1
+--- !u!114 &203146065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203146061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d80c2767ca1514f8489bfcad7a12e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _en: Setting
+  _ru: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
 --- !u!1 &204173293
 GameObject:
   m_ObjectHideFlags: 0
@@ -4147,6 +4162,7 @@ GameObject:
   - component: {fileID: 260095427}
   - component: {fileID: 260095429}
   - component: {fileID: 260095428}
+  - component: {fileID: 260095430}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -4206,7 +4222,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Menu
+  m_Text: "\u041C\u0435\u043D\u044E"
 --- !u!222 &260095429
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4215,6 +4231,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 260095426}
   m_CullTransparentMesh: 1
+--- !u!114 &260095430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260095426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d80c2767ca1514f8489bfcad7a12e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _en: Menu
+  _ru: "\u041C\u0435\u043D\u044E"
 --- !u!1 &260719173
 GameObject:
   m_ObjectHideFlags: 0
@@ -9977,6 +10007,7 @@ GameObject:
   - component: {fileID: 621451323}
   - component: {fileID: 621451325}
   - component: {fileID: 621451324}
+  - component: {fileID: 621451326}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -10036,7 +10067,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Continue
+  m_Text: "\u0418\u0433\u0440\u0430\u0442\u044C"
 --- !u!222 &621451325
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10045,6 +10076,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 621451322}
   m_CullTransparentMesh: 1
+--- !u!114 &621451326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 621451322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d80c2767ca1514f8489bfcad7a12e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _en: Continue
+  _ru: "\u0418\u0433\u0440\u0430\u0442\u044C"
 --- !u!1 &628536507
 GameObject:
   m_ObjectHideFlags: 0
@@ -93259,7 +93304,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -1.2128896, y: 250.53}
-  m_SizeDelta: {x: 256.686, y: 116.6754}
+  m_SizeDelta: {x: 338.9285, y: 117.2821}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &675133165
 MonoBehaviour:
@@ -93590,7 +93635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2.5
-  deathObject: {fileID: 861183695}
+  deathObject: {fileID: 1143530727}
   playerSpriteObject: {fileID: 1630337824}
 --- !u!61 &686650367
 BoxCollider2D:
@@ -94202,7 +94247,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2.5
-  deathObject: {fileID: 861183695}
+  deathObject: {fileID: 1143530727}
   playerSpriteObject: {fileID: 1630337824}
 --- !u!61 &722125619
 BoxCollider2D:
@@ -94896,7 +94941,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -1.2128974, y: 133.5491}
-  m_SizeDelta: {x: 258.03, y: 117.2821}
+  m_SizeDelta: {x: 338.9285, y: 117.2821}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &795762362
 MonoBehaviour:
@@ -97950,6 +97995,7 @@ GameObject:
   - component: {fileID: 1135817171}
   - component: {fileID: 1135817173}
   - component: {fileID: 1135817172}
+  - component: {fileID: 1135817174}
   m_Layer: 5
   m_Name: SoundText
   m_TagString: Untagged
@@ -98009,7 +98055,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Volume
+  m_Text: "\u0413\u0440\u043E\u043C\u043A\u043E\u0441\u0442\u044C"
 --- !u!222 &1135817173
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -98018,6 +98064,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1135817170}
   m_CullTransparentMesh: 1
+--- !u!114 &1135817174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135817170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d80c2767ca1514f8489bfcad7a12e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _en: Volume
+  _ru: "\u0413\u0440\u043E\u043C\u043A\u043E\u0441\u0442\u044C"
 --- !u!1 &1143530727
 GameObject:
   m_ObjectHideFlags: 0
@@ -98357,8 +98417,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95d80c2767ca1514f8489bfcad7a12e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _en: Watch
-  _ru: "\u0421\u043C\u043E\u0442\u0440\u0435\u0442\u044C"
+  _en: Continue
+  _ru: "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C"
 --- !u!114 &1154521491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98392,7 +98452,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Continue
+  m_Text: "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C"
 --- !u!222 &1154521492
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -98624,7 +98684,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.0000104904175, y: 16.493}
-  m_SizeDelta: {x: 257.02, y: 116.8304}
+  m_SizeDelta: {x: 338.9285, y: 117.2821}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1169756258
 MonoBehaviour:
@@ -104357,7 +104417,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.0000019073, y: -58.415}
-  m_SizeDelta: {x: 257.02, y: 116.8304}
+  m_SizeDelta: {x: 319.9897, y: 116.8304}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1839147121
 MonoBehaviour:
@@ -104464,6 +104524,7 @@ GameObject:
   - component: {fileID: 1853284647}
   - component: {fileID: 1853284649}
   - component: {fileID: 1853284648}
+  - component: {fileID: 1853284650}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -104523,7 +104584,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Back
+  m_Text: "\u041D\u0430\u0437\u0430\u0434"
 --- !u!222 &1853284649
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -104532,6 +104593,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1853284646}
   m_CullTransparentMesh: 1
+--- !u!114 &1853284650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853284646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d80c2767ca1514f8489bfcad7a12e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _en: Back
+  _ru: "\u041D\u0430\u0437\u0430\u0434"
 --- !u!1 &1897000511
 GameObject:
   m_ObjectHideFlags: 0
@@ -104870,6 +104945,7 @@ GameObject:
   - component: {fileID: 1914347849}
   - component: {fileID: 1914347851}
   - component: {fileID: 1914347850}
+  - component: {fileID: 1914347852}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -104929,7 +105005,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Setting
+  m_Text: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
 --- !u!222 &1914347851
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -104938,6 +105014,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1914347848}
   m_CullTransparentMesh: 1
+--- !u!114 &1914347852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914347848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d80c2767ca1514f8489bfcad7a12e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _en: Setting
+  _ru: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
 --- !u!1 &1916811485
 GameObject:
   m_ObjectHideFlags: 0
