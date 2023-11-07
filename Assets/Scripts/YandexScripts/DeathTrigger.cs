@@ -8,6 +8,8 @@ public class DeathTrigger : MonoBehaviour
     [SerializeField] private GameObject restartCanvas;
     [SerializeField] private GameObject spawnpointObject;
 
+    [SerializeField] private Animator screenAnim;
+
     private void Start()
     {
         spawnpointManager = spawnpointObject.GetComponent<Spawnpoints>();
@@ -15,7 +17,12 @@ public class DeathTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        screenAnim.SetTrigger("killPlayer");
+    }
+
+    public void setRestartScreen()
+    {
         restartCanvas.SetActive(true);
-        spawnpointManager.TempSpawn();  
+        spawnpointManager.TempSpawn();
     }
 }

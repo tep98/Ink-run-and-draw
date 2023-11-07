@@ -12,6 +12,8 @@ public class Spawnpoints : MonoBehaviour
     [SerializeField] private GameObject restartCanvas;
     [SerializeField] private GameObject adTimer;
 
+    [SerializeField] private Animator screenAnim;
+
     private void Start()
     {
         currentPointIndex = Progress.Instance.PlayerInfo.Spawnpoint;
@@ -29,6 +31,7 @@ public class Spawnpoints : MonoBehaviour
     {
         player.transform.position = spawnPoint[currentPointIndex].transform.position;
         restartCanvas.SetActive(false);
+        screenAnim.SetBool("isSpawn", false);
     }
 
     public void TempSpawn()
@@ -42,5 +45,6 @@ public class Spawnpoints : MonoBehaviour
     {
         player.transform.position = spawnPoint[0].transform.position;
         restartCanvas.SetActive(false);
+        screenAnim.SetBool("isSpawn", false);
     }
 }

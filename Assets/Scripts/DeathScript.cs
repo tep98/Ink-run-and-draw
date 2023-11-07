@@ -6,8 +6,6 @@ using UnityEngine.SceneManagement;
 public class DeathScript : MonoBehaviour
 {
     [SerializeField] private Animator screenAnim;
-    [SerializeField] private GameObject deathScreenEffect;
-
 
     private void OnTriggerEnter2D(Collider2D other)
     {
