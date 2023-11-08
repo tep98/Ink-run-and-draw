@@ -31,11 +31,12 @@ public class Spawnpoints : MonoBehaviour
     {
         player.transform.position = spawnPoint[currentPointIndex].transform.position;
         restartCanvas.SetActive(false);
-        screenAnim.SetBool("isSpawn", false);
+        screenAnim.SetBool("killPlayer", false);
     }
 
     public void TempSpawn()
     {
+        player.GetComponent<Rigidbody2D>().velocity = new Vector2(0f, 0f);
         player.transform.position = spawnPoint[currentPointIndex].transform.position;
         adTimerManager.ResetTimer();
 
@@ -45,6 +46,6 @@ public class Spawnpoints : MonoBehaviour
     {
         player.transform.position = spawnPoint[0].transform.position;
         restartCanvas.SetActive(false);
-        screenAnim.SetBool("isSpawn", false);
+        screenAnim.SetBool("killPlayer", false);
     }
 }
