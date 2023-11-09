@@ -8,7 +8,6 @@ public class PlayerInfo
 {
     public int Level = 1;
     public int Spawnpoint = 0;
-    public bool haveBrush = false;
 }
 
 
@@ -47,5 +46,10 @@ public class Progress : MonoBehaviour
     public void SetPlayerInfo(string value)
     {
         PlayerInfo = JsonUtility.FromJson<PlayerInfo>(value);
+    }
+
+    public void LoadExt()
+    {
+        LoadExtern();
     }
 }

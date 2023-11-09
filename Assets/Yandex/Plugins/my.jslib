@@ -66,10 +66,6 @@ mergeInto(LibraryManager.library, {
     return buffer;
   },
 
-  PlayerAuth : function(){
-    auth();
-  },
-
   StartGame : function(){
     initPlayer();
   },
