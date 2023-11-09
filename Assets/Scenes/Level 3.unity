@@ -583,7 +583,7 @@ Transform:
   m_GameObject: {fileID: 77512596}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.5, y: -1.9, z: -10.120109}
+  m_LocalPosition: {x: -9.5, y: -0.82, z: -10.120109}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2759,7 +2759,7 @@ Transform:
   m_GameObject: {fileID: 308740264}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.5, y: -1.9, z: -10.120109}
+  m_LocalPosition: {x: -9.5, y: -0.82, z: -10.120109}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -78972,7 +78972,7 @@ Transform:
   m_GameObject: {fileID: 906550143}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.5, y: -1.9, z: -0.12010882}
+  m_LocalPosition: {x: -9.5, y: -0.82, z: -0.12010882}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -79836,6 +79836,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1143530731}
   - component: {fileID: 1143530730}
+  - component: {fileID: 1143530733}
   - component: {fileID: 1143530729}
   - component: {fileID: 1143530732}
   m_Layer: 0
@@ -79947,6 +79948,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   restartCanvas: {fileID: 439872276}
   spawnpointObject: {fileID: 675646811}
+  screenAnim: {fileID: 1897000514}
+--- !u!114 &1143530733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143530727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4afa5128b8aca1d47973812c640d58f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   screenAnim: {fileID: 1897000514}
 --- !u!1 &1163514310
 GameObject:
@@ -84117,6 +84131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1897000512}
   - component: {fileID: 1897000516}
+  - component: {fileID: 1897000521}
   - component: {fileID: 1897000515}
   - component: {fileID: 1897000514}
   - component: {fileID: 1897000517}
@@ -84247,6 +84262,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   restartCanvas: {fileID: 439872276}
   spawnpointObject: {fileID: 675646811}
+  screenAnim: {fileID: 1897000514}
+--- !u!114 &1897000521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897000511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4afa5128b8aca1d47973812c640d58f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   screenAnim: {fileID: 1897000514}
 --- !u!1 &1914347848
 GameObject:

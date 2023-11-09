@@ -36,6 +36,7 @@ public class Spawnpoints : MonoBehaviour
 
     public void TempSpawn()
     {
+        GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().enabled = true;
         player.GetComponent<Rigidbody2D>().velocity = new Vector2(0f, 0f);
         player.transform.position = spawnPoint[currentPointIndex].transform.position;
         adTimerManager.ResetTimer();

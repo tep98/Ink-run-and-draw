@@ -15,7 +15,7 @@ public class DeathScript : MonoBehaviour
 
     public void KillPlayer()
     {
-        screenAnim.SetTrigger("killPlayer");
+        screenAnim.SetBool("killPlayer", true);
     }
 
     public void RestartScene()

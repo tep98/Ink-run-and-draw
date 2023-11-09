@@ -864,7 +864,7 @@ Transform:
   m_GameObject: {fileID: 77512596}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.416, y: -1.075, z: -10.120109}
+  m_LocalPosition: {x: -4.32, y: -0.29, z: -10.120109}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4583,7 +4583,7 @@ Transform:
   m_GameObject: {fileID: 308740264}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.416, y: -1.075, z: -10.120109}
+  m_LocalPosition: {x: -4.32, y: -0.29, z: -10.120109}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -93694,7 +93694,7 @@ MonoBehaviour:
   player: {fileID: 906550143}
   restartCanvas: {fileID: 439872276}
   adTimer: {fileID: 693655840}
-  screenAnim: {fileID: 0}
+  screenAnim: {fileID: 1897000514}
 --- !u!4 &675646813
 Transform:
   m_ObjectHideFlags: 0
@@ -96380,7 +96380,7 @@ Transform:
   m_GameObject: {fileID: 906550143}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.416, y: -1.075, z: -0.12010882}
+  m_LocalPosition: {x: -4.32, y: -0.29, z: -0.12010882}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -98213,6 +98213,7 @@ GameObject:
   - component: {fileID: 1143530731}
   - component: {fileID: 1143530730}
   - component: {fileID: 1143530729}
+  - component: {fileID: 1143530733}
   - component: {fileID: 1143530732}
   m_Layer: 0
   m_Name: DeathTrigger
@@ -98323,7 +98324,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   restartCanvas: {fileID: 439872276}
   spawnpointObject: {fileID: 675646811}
-  screenAnim: {fileID: 0}
+  screenAnim: {fileID: 1897000514}
+--- !u!114 &1143530733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143530727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4afa5128b8aca1d47973812c640d58f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  screenAnim: {fileID: 1897000514}
 --- !u!1 &1143673581
 GameObject:
   m_ObjectHideFlags: 0
@@ -104739,7 +104753,7 @@ GameObject:
   - component: {fileID: 1897000516}
   - component: {fileID: 1897000515}
   - component: {fileID: 1897000514}
-  - component: {fileID: 1897000518}
+  - component: {fileID: 1897000520}
   - component: {fileID: 1897000517}
   - component: {fileID: 1897000519}
   m_Layer: 5
@@ -104840,19 +104854,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7f59ea82c1a5fc4da4312370b97795e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1897000518
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1897000511}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4afa5128b8aca1d47973812c640d58f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  screenAnim: {fileID: 1897000514}
 --- !u!114 &1897000519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -104866,6 +104867,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentScene: 1
+--- !u!114 &1897000520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897000511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77f292de5d0ecbe458d2708d4297cb53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  restartCanvas: {fileID: 439872276}
+  spawnpointObject: {fileID: 675646811}
+  screenAnim: {fileID: 1897000514}
 --- !u!1 &1911511975
 GameObject:
   m_ObjectHideFlags: 0
