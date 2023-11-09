@@ -909,11 +909,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 991b7fb3-e777-499b-83e2-4f0a0bb278a9
+  cloudProjectId: 90ce6c7e-2131-4e3e-a1e7-93159ad5c949
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Ink run and draw
-  organizationId: tep98
+  projectName: Ink Run and Draw
+  organizationId: zaletin123
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
