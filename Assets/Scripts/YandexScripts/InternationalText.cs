@@ -9,20 +9,20 @@ public class InternationalText : MonoBehaviour
     [SerializeField] string _en;
     [SerializeField] string _ru;
 
-    // private void Start()
-    // {
-    //     if (Language.Instance.currentLanguage == "en")
-    //     {
-    //         GetComponent<TextMeshPro>().text = _en;
-    //     }
-    //     else if (Language.Instance.currentLanguage == "ru")
-    //     {
-    //         GetComponent<TextMeshPro>().text = _ru;
-    //     }
-    //     else
-    //     {
-    //         GetComponent<TextMeshPro>().text = _en;
-    //     }
-    // }
+    private void Start()
+    {
+        if (Language.Instance.currentLanguage == "en")
+        {
+            GetComponent<TextMeshPro>().text = _en;
+        }
+        else if (Language.Instance.currentLanguage == "ru")
+        {
+            GetComponent<TextMeshPro>().text = _ru;
+        }
+        else
+        {
+            GetComponent<TextMeshPro>().text = _en;
+        }
+    }
 
 }

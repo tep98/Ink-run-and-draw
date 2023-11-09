@@ -8,20 +8,20 @@ public class InternationalTextCanvas : MonoBehaviour
     [SerializeField] string _en;
     [SerializeField] string _ru;
 
-    // private void Start()
-    // {
-    //     if (Language.Instance.currentLanguage == "en")
-    //     {
-    //         GetComponent<Text>().text = _en;
-    //     }
-    //     else if (Language.Instance.currentLanguage == "ru")
-    //     {
-    //         GetComponent<Text>().text = _ru;
-    //     }
-    //     else
-    //     {
-    //         GetComponent<Text>().text = _en;
-    //     }
-    // }
+    private void Start()
+    {
+        if (Language.Instance.currentLanguage == "en")
+        {
+            GetComponent<Text>().text = _en;
+        }
+        else if (Language.Instance.currentLanguage == "ru")
+        {
+            GetComponent<Text>().text = _ru;
+        }
+        else
+        {
+            GetComponent<Text>().text = _en;
+        }
+    }
 
 }
