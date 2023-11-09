@@ -3941,7 +3941,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95d80c2767ca1514f8489bfcad7a12e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _en: Setting
+  _en: Settings
   _ru: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
 --- !u!1 &204173293
 GameObject:
@@ -10012,7 +10012,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95d80c2767ca1514f8489bfcad7a12e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _en: Continue
+  _en: Resume
   _ru: "\u0418\u0433\u0440\u0430\u0442\u044C"
 --- !u!1 &628536507
 GameObject:
@@ -105147,7 +105147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95d80c2767ca1514f8489bfcad7a12e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _en: Setting
+  _en: Settings
   _ru: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
 --- !u!1 &1916811485
 GameObject:

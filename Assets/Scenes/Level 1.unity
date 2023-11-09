@@ -1739,8 +1739,8 @@ GameObject:
   m_Component:
   - component: {fileID: 203146062}
   - component: {fileID: 203146064}
+  - component: {fileID: 203146066}
   - component: {fileID: 203146063}
-  - component: {fileID: 203146065}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -1809,7 +1809,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 203146061}
   m_CullTransparentMesh: 1
---- !u!114 &203146065
+--- !u!114 &203146066
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1821,7 +1821,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95d80c2767ca1514f8489bfcad7a12e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _en: Setting
+  _en: Settings
   _ru: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
 --- !u!1 &260095426
 GameObject:
@@ -5176,8 +5176,8 @@ GameObject:
   m_Component:
   - component: {fileID: 621451323}
   - component: {fileID: 621451325}
+  - component: {fileID: 621451327}
   - component: {fileID: 621451324}
-  - component: {fileID: 621451326}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -5246,7 +5246,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 621451322}
   m_CullTransparentMesh: 1
---- !u!114 &621451326
+--- !u!114 &621451327
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5258,7 +5258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95d80c2767ca1514f8489bfcad7a12e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _en: Continue
+  _en: Resume
   _ru: "\u0418\u0433\u0440\u0430\u0442\u044C"
 --- !u!1 &628536507
 GameObject:
@@ -35855,8 +35855,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1135817171}
   - component: {fileID: 1135817173}
+  - component: {fileID: 1135817175}
   - component: {fileID: 1135817172}
-  - component: {fileID: 1135817174}
   m_Layer: 5
   m_Name: SoundText
   m_TagString: Untagged
@@ -35925,7 +35925,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1135817170}
   m_CullTransparentMesh: 1
---- !u!114 &1135817174
+--- !u!114 &1135817175
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -38840,8 +38840,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1853284647}
   - component: {fileID: 1853284649}
+  - component: {fileID: 1853284651}
   - component: {fileID: 1853284648}
-  - component: {fileID: 1853284650}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -38910,7 +38910,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1853284646}
   m_CullTransparentMesh: 1
---- !u!114 &1853284650
+--- !u!114 &1853284651
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -39197,7 +39197,7 @@ GameObject:
   - component: {fileID: 1914347849}
   - component: {fileID: 1914347851}
   - component: {fileID: 1914347850}
-  - component: {fileID: 1914347852}
+  - component: {fileID: 1914347853}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -39266,7 +39266,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1914347848}
   m_CullTransparentMesh: 1
---- !u!114 &1914347852
+--- !u!114 &1914347853
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -39278,7 +39278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95d80c2767ca1514f8489bfcad7a12e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _en: Setting
+  _en: Settings
   _ru: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
 --- !u!1 &1916811485
 GameObject:
