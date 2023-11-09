@@ -9,6 +9,7 @@ public class StartBtn : MonoBehaviour
 
     public void Startbtn()
     {
+        Progress.Instance.LoadExt();
         StartUI.SetActive(false);
         ChoiceUI.SetActive(true);
     }
