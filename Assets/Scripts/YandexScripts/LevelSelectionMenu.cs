@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Runtime.InteropServices;
+using UnityEngine.UI;
 
 public class LevelSelectionMenu : MonoBehaviour
 {
     public GameObject[] levelButtons;
     public GameObject[] levelButtonsBlocked;
+    [SerializeField] private Button bonusButton;
     [SerializeField] private AudioSource music;
 
     [DllImport("__Internal")]
@@ -21,6 +23,8 @@ public class LevelSelectionMenu : MonoBehaviour
 
     public void UpdateMenu()
     {
+        bonusButton.interactable = true;
+
         maxLevel = Progress.Instance.PlayerInfo.Level;
         
         for (int i = 0; i < levelButtons.Length; i++)
@@ -45,6 +49,7 @@ public class LevelSelectionMenu : MonoBehaviour
 
     public void AdButton()
     {
+        bonusButton.interactable = false;
         AdBonus();
         Time.timeScale = 0;
         music.volume = 0f;
