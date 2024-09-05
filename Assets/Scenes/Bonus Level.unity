@@ -143,7 +143,6 @@ GameObject:
   - component: {fileID: 40278373}
   - component: {fileID: 40278375}
   - component: {fileID: 40278374}
-  - component: {fileID: 40278376}
   m_Layer: 0
   m_Name: GameObject (16)
   m_TagString: Untagged
@@ -308,22 +307,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &40278376
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 40278372}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c81db61f023b914e84642be2cda8943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: I think I saw a lever for this door a little earlier
-  _ru: "\u041A\u0430\u0436\u0435\u0442\u0441\u044F \u044F \u0432\u0438\u0434\u0435\u043B
-    \u0440\u044B\u0447\u0430\u0433 \u043A \u044D\u0442\u043E\u0439 \u0434\u0432\u0435\u0440\u0438
-    \u0447\u0443\u0442\u044C \u0440\u0430\u043D\u044C\u0448\u0435"
 --- !u!1 &61034693
 GameObject:
   m_ObjectHideFlags: 0
@@ -463,7 +446,6 @@ GameObject:
   - component: {fileID: 62693826}
   - component: {fileID: 62693828}
   - component: {fileID: 62693827}
-  - component: {fileID: 62693829}
   m_Layer: 0
   m_Name: GameObject (23)
   m_TagString: Untagged
@@ -628,68 +610,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &62693829
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 62693825}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c81db61f023b914e84642be2cda8943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: It seems the lever is somewhere behind
-  _ru: "\u041A\u0430\u0436\u0435\u0442\u0441\u044F \u0440\u044B\u0447\u0430\u0433
-    \u0431\u044B\u043B \u0433\u0434\u0435-\u0442\u043E \u043F\u043E\u0437\u0430\u0434\u0438!"
---- !u!1 &73087830
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 73087832}
-  - component: {fileID: 73087831}
-  m_Layer: 0
-  m_Name: Progress
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &73087831
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 73087830}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9801a9fbcaa329e499edc53f48d23e94, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PlayerInfo:
-    Level: 1
-    Spawnpoint: 0
---- !u!4 &73087832
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 73087830}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 451.68268, y: 297.72568, z: 4.3951063}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &75331457
 GameObject:
   m_ObjectHideFlags: 0
@@ -1164,7 +1084,6 @@ GameObject:
   - component: {fileID: 112932586}
   - component: {fileID: 112932589}
   - component: {fileID: 112932588}
-  - component: {fileID: 112932587}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -1191,20 +1110,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0.00006866455, y: 1.5816956}
   m_SizeDelta: {x: 0, y: 12.021301}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &112932587
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 112932585}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95d80c2767ca1514f8489bfcad7a12e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: Restart
-  _ru: "\u041D\u0430\u0447\u0430\u0442\u044C \u0441 \u043D\u0430\u0447\u0430\u043B\u0430"
 --- !u!114 &112932588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1229,16 +1134,16 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: daf2fcf42e8e3514b8ab72657056fa75, type: 3}
     m_FontSize: 19
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 2
     m_MaxSize: 52
     m_Alignment: 4
-    m_AlignByGeometry: 0
+    m_AlignByGeometry: 1
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041D\u0430\u0447\u0430\u0442\u044C \u0441 \u043D\u0430\u0447\u0430\u043B\u0430"
+  m_Text: Go to Start
 --- !u!222 &112932589
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1258,7 +1163,6 @@ GameObject:
   - component: {fileID: 115793802}
   - component: {fileID: 115793804}
   - component: {fileID: 115793803}
-  - component: {fileID: 115793805}
   m_Layer: 0
   m_Name: GameObject (9)
   m_TagString: Untagged
@@ -1424,25 +1328,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &115793805
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 115793801}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c81db61f023b914e84642be2cda8943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: OMG! It's the legendary magic brush! Take it and try to draw. I think you
-    can do it!
-  _ru: "\u0412\u0410\u0423! \u042D\u0442\u043E \u0436\u0435 \u043B\u0435\u0433\u0435\u043D\u0434\u0430\u0440\u043D\u0430\u044F
-    \u043C\u0430\u0433\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u043A\u0438\u0441\u0442\u044C!
-    \u0412\u043E\u0437\u044C\u043C\u0438 \u0438 \u043F\u043E\u043F\u0440\u043E\u0431\u0443\u0439
-    \u043F\u043E\u0440\u0438\u0441\u043E\u0432\u0430\u0442\u044C. \u042F \u0434\u0443\u043C\u0430\u044E
-    \u0442\u044B \u0441\u043C\u043E\u0436\u0435\u0448\u044C!"
 --- !u!1 &142611888
 GameObject:
   m_ObjectHideFlags: 0
@@ -2421,7 +2306,6 @@ GameObject:
   - component: {fileID: 163102173}
   - component: {fileID: 163102175}
   - component: {fileID: 163102174}
-  - component: {fileID: 163102176}
   m_Layer: 0
   m_Name: GameObject (5)
   m_TagString: Untagged
@@ -2586,21 +2470,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &163102176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 163102172}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c81db61f023b914e84642be2cda8943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: This cave seems very scary!
-  _ru: "\u042D\u0442\u043E \u043F\u0435\u0449\u0435\u0440\u0430 \u043E\u0447\u0435\u043D\u044C
-    \u0441\u0442\u0440\u0430\u0448\u043D\u0430\u044F!"
 --- !u!1 &166775465
 GameObject:
   m_ObjectHideFlags: 0
@@ -2782,7 +2651,6 @@ GameObject:
   - component: {fileID: 174210117}
   - component: {fileID: 174210119}
   - component: {fileID: 174210118}
-  - component: {fileID: 174210120}
   m_Layer: 0
   m_Name: GameObject (20)
   m_TagString: Untagged
@@ -2947,21 +2815,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &174210120
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 174210116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c81db61f023b914e84642be2cda8943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: How many levers and doors!
-  _ru: "\u041A\u0430\u043A \u043C\u043D\u043E\u0433\u043E \u0440\u044B\u0447\u0430\u0433\u043E\u0432
-    \u0438 \u0434\u0432\u0435\u0440\u0435\u0439!"
 --- !u!1 &177958523
 GameObject:
   m_ObjectHideFlags: 0
@@ -3256,7 +3109,6 @@ GameObject:
   - component: {fileID: 184851655}
   - component: {fileID: 184851657}
   - component: {fileID: 184851656}
-  - component: {fileID: 184851658}
   m_Layer: 0
   m_Name: GameObject (12)
   m_TagString: Untagged
@@ -3421,21 +3273,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &184851658
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 184851654}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c81db61f023b914e84642be2cda8943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: Wow! This is a very long jump, if you master it, it will be legendary!
-  _ru: "\u0412\u0430\u0443! \u042D\u0442\u043E \u043E\u0447\u0435\u043D\u044C \u0434\u043B\u0438\u043D\u043D\u044B\u0439
-    \u043F\u0440\u044B\u0436\u043E\u043A! \u0422\u044B \u0441\u043F\u0440\u0430\u0432\u0438\u0448\u044C\u0441\u044F?"
 --- !u!1 &185636776
 GameObject:
   m_ObjectHideFlags: 0
@@ -3594,7 +3431,6 @@ GameObject:
   - component: {fileID: 186174492}
   - component: {fileID: 186174494}
   - component: {fileID: 186174493}
-  - component: {fileID: 186174495}
   m_Layer: 0
   m_Name: GameObject (19)
   m_TagString: Untagged
@@ -3759,20 +3595,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &186174495
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 186174491}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c81db61f023b914e84642be2cda8943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: Don't fall!
-  _ru: "\u041D\u0435 \u0443\u043F\u0430\u0434\u0438!"
 --- !u!1 &188053050
 GameObject:
   m_ObjectHideFlags: 0
@@ -3990,7 +3812,6 @@ GameObject:
   - component: {fileID: 203146062}
   - component: {fileID: 203146064}
   - component: {fileID: 203146063}
-  - component: {fileID: 203146065}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -4050,7 +3871,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
+  m_Text: Settings
 --- !u!222 &203146064
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4059,20 +3880,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 203146061}
   m_CullTransparentMesh: 1
---- !u!114 &203146065
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 203146061}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95d80c2767ca1514f8489bfcad7a12e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: Settings
-  _ru: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
 --- !u!1 &204173293
 GameObject:
   m_ObjectHideFlags: 0
@@ -4208,7 +4015,6 @@ GameObject:
   - component: {fileID: 260095427}
   - component: {fileID: 260095429}
   - component: {fileID: 260095428}
-  - component: {fileID: 260095430}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -4268,7 +4074,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041C\u0435\u043D\u044E"
+  m_Text: Main Menu
 --- !u!222 &260095429
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4277,20 +4083,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 260095426}
   m_CullTransparentMesh: 1
---- !u!114 &260095430
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 260095426}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95d80c2767ca1514f8489bfcad7a12e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: Menu
-  _ru: "\u041C\u0435\u043D\u044E"
 --- !u!1 &260719173
 GameObject:
   m_ObjectHideFlags: 0
@@ -4377,7 +4169,6 @@ GameObject:
   - component: {fileID: 281002279}
   - component: {fileID: 281002281}
   - component: {fileID: 281002280}
-  - component: {fileID: 281002282}
   m_Layer: 0
   m_Name: GameObject (25)
   m_TagString: Untagged
@@ -4542,21 +4333,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &281002282
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 281002278}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c81db61f023b914e84642be2cda8943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: Try not to lose your progress
-  _ru: "\u041F\u043E\u0441\u0442\u0430\u0440\u0430\u0439\u0441\u044F \u043D\u0435
-    \u043F\u043E\u0442\u0435\u0440\u044F\u0442\u044C \u0441\u0432\u043E\u0439 \u043F\u0440\u043E\u0433\u0440\u0435\u0441\u0441!"
 --- !u!1 &308740264
 GameObject:
   m_ObjectHideFlags: 0
@@ -4767,7 +4543,6 @@ GameObject:
   m_Component:
   - component: {fileID: 329353804}
   - component: {fileID: 329353806}
-  - component: {fileID: 329353807}
   - component: {fileID: 329353805}
   m_Layer: 0
   m_Name: GameObject
@@ -4933,22 +4708,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &329353807
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 329353803}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c81db61f023b914e84642be2cda8943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: Hi! Nice to meet you! Can you try to climb somewhere?
-  _ru: "\u041F\u0440\u0438\u0432\u0435\u0442! \u041A\u0440\u0443\u0442\u043E \u0447\u0442\u043E
-    \u0442\u044B \u0437\u0434\u0435\u0441\u044C! \u041F\u043E\u043F\u0440\u043E\u0431\u0443\u0439
-    \u0437\u0430\u0431\u0440\u0430\u0442\u044C\u0441\u044F \u043A\u0443\u0434\u0430-\u043D\u0438\u0431\u0443\u0434\u044C!"
 --- !u!1 &333615821
 GameObject:
   m_ObjectHideFlags: 0
@@ -4960,7 +4719,6 @@ GameObject:
   - component: {fileID: 333615822}
   - component: {fileID: 333615824}
   - component: {fileID: 333615823}
-  - component: {fileID: 333615825}
   m_Layer: 0
   m_Name: GameObject (29)
   m_TagString: Untagged
@@ -5125,20 +4883,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &333615825
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 333615821}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c81db61f023b914e84642be2cda8943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: I think you are the best!
-  _ru: "\u042F \u0434\u0443\u043C\u0430\u044E \u0442\u044B \u043B\u0443\u0447\u0448\u0438\u0439!"
 --- !u!1 &339740636
 GameObject:
   m_ObjectHideFlags: 3
@@ -5238,7 +4982,6 @@ GameObject:
   - component: {fileID: 349781360}
   - component: {fileID: 349781363}
   - component: {fileID: 349781362}
-  - component: {fileID: 349781361}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -5262,24 +5005,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 45.5, y: -0}
-  m_SizeDelta: {x: -65.6745, y: 0}
+  m_AnchoredPosition: {x: 0.71539307, y: 1.5443}
+  m_SizeDelta: {x: 26.3911, y: -19.4241}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &349781361
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 349781359}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95d80c2767ca1514f8489bfcad7a12e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: Continue from spawnpoint
-  _ru: "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C \u0441\u043E
-    \u0441\u043F\u0430\u0432\u043D\u043F\u043E\u0438\u043D\u0442\u0430"
 --- !u!114 &349781362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5302,7 +5030,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: daf2fcf42e8e3514b8ab72657056fa75, type: 3}
-    m_FontSize: 32
+    m_FontSize: 39
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -5313,8 +5041,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C \u0441\u043E
-    \u0441\u043F\u0430\u0432\u043D\u043F\u043E\u0438\u043D\u0442\u0430"
+  m_Text: Go to last checkpoint
 --- !u!222 &349781363
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5368,7 +5095,6 @@ GameObject:
   - component: {fileID: 399269353}
   - component: {fileID: 399269355}
   - component: {fileID: 399269354}
-  - component: {fileID: 399269356}
   m_Layer: 0
   m_Name: GameObject (26)
   m_TagString: Untagged
@@ -5533,22 +5259,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &399269356
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 399269352}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c81db61f023b914e84642be2cda8943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: Use the brush to stop him! Your strength is in creativity!
-  _ru: "\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0439 \u043A\u0438\u0441\u0442\u043E\u0447\u043A\u0443
-    \u0447\u0442\u043E\u0431\u044B \u043E\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u044C
-    \u0435\u0433\u043E!"
 --- !u!1 &410787398
 GameObject:
   m_ObjectHideFlags: 0
@@ -6123,7 +5833,6 @@ GameObject:
   - component: {fileID: 545135730}
   - component: {fileID: 545135732}
   - component: {fileID: 545135731}
-  - component: {fileID: 545135733}
   m_Layer: 0
   m_Name: GameObject (28)
   m_TagString: Untagged
@@ -6288,20 +5997,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &545135733
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 545135729}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c81db61f023b914e84642be2cda8943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: The last push!
-  _ru: "\u041F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439 \u0440\u044B\u0432\u043E\u043A!"
 --- !u!1 &545226651
 GameObject:
   m_ObjectHideFlags: 0
@@ -9367,7 +9062,6 @@ GameObject:
   - component: {fileID: 561236746}
   - component: {fileID: 561236748}
   - component: {fileID: 561236747}
-  - component: {fileID: 561236749}
   m_Layer: 0
   m_Name: GameObject (4)
   m_TagString: Untagged
@@ -9532,21 +9226,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &561236749
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 561236745}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c81db61f023b914e84642be2cda8943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: It seems the previous jump was similar...
-  _ru: "\u042D\u0442\u043E\u0442 \u043F\u0440\u044B\u0436\u043E\u043A \u043F\u043E\u0445\u043E\u0436
-    \u043D\u0430 \u043F\u0440\u043E\u0448\u043B\u044B\u0439..."
 --- !u!1 &568221428
 GameObject:
   m_ObjectHideFlags: 0
@@ -9996,7 +9675,6 @@ GameObject:
   - component: {fileID: 609089195}
   - component: {fileID: 609089197}
   - component: {fileID: 609089196}
-  - component: {fileID: 609089198}
   m_Layer: 0
   m_Name: GameObject (11)
   m_TagString: Untagged
@@ -10161,22 +9839,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &609089198
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 609089194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c81db61f023b914e84642be2cda8943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: Use the protrusions on the pipes to climb higher!
-  _ru: "\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0439 \u0443\u0441\u0442\u0443\u043F\u044B
-    \u043D\u0430 \u0442\u0440\u0443\u0431\u0430\u0445 \u0447\u0442\u043E\u0431\u044B
-    \u0437\u0430\u0431\u0440\u0430\u0442\u044C\u0441\u044F \u0432\u044B\u0448\u0435!"
 --- !u!1 &621451322
 GameObject:
   m_ObjectHideFlags: 0
@@ -10188,7 +9850,6 @@ GameObject:
   - component: {fileID: 621451323}
   - component: {fileID: 621451325}
   - component: {fileID: 621451324}
-  - component: {fileID: 621451326}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -10248,7 +9909,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0418\u0433\u0440\u0430\u0442\u044C"
+  m_Text: Play
 --- !u!222 &621451325
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10257,20 +9918,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 621451322}
   m_CullTransparentMesh: 1
---- !u!114 &621451326
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 621451322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95d80c2767ca1514f8489bfcad7a12e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: Resume
-  _ru: "\u0418\u0433\u0440\u0430\u0442\u044C"
 --- !u!1 &628536507
 GameObject:
   m_ObjectHideFlags: 0
@@ -93597,7 +93244,7 @@ GameObject:
   - component: {fileID: 675472624}
   - component: {fileID: 675472626}
   m_Layer: 0
-  m_Name: mainMusic
+  m_Name: MusicController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -93610,7 +93257,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 675472623}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2b10f6df518a88640a2f0785b1b15075, type: 3}
@@ -94924,7 +94571,6 @@ GameObject:
   - component: {fileID: 781627677}
   - component: {fileID: 781627679}
   - component: {fileID: 781627678}
-  - component: {fileID: 781627680}
   m_Layer: 0
   m_Name: GameObject (2)
   m_TagString: Untagged
@@ -95089,22 +94735,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &781627680
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 781627676}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c81db61f023b914e84642be2cda8943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: Wow! It's a ladder! Do you know how to use it?
-  _ru: "\u0412\u0430\u0443! \u042D\u0442\u043E \u043B\u0435\u0441\u0442\u043D\u0438\u0446\u0430!
-    \u0422\u044B \u0432\u0435\u0434\u044C \u0437\u043D\u0430\u0435\u0448\u044C \u043A\u0430\u043A
-    \u0435\u0439 \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C\u0441\u044F?"
 --- !u!1 &795762360
 GameObject:
   m_ObjectHideFlags: 0
@@ -95313,64 +94943,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 799938108}
   m_CullTransparentMesh: 1
---- !u!1 &842930378
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 842930380}
-  - component: {fileID: 842930379}
-  - component: {fileID: 842930381}
-  m_Layer: 0
-  m_Name: StartManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &842930379
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 842930378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c8fb2986f5829a488441d8f6c286a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  music: {fileID: 675472624}
---- !u!4 &842930380
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 842930378}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 295.3695, y: 251.85635, z: -31.12552}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &842930381
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 842930378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f37ec2aa20df12b4787cce1cfc62f2c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &849980973
 GameObject:
   m_ObjectHideFlags: 0
@@ -95474,7 +95046,6 @@ GameObject:
   - component: {fileID: 860219402}
   - component: {fileID: 860219404}
   - component: {fileID: 860219403}
-  - component: {fileID: 860219405}
   m_Layer: 0
   m_Name: GameObject (7)
   m_TagString: Untagged
@@ -95639,22 +95210,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &860219405
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 860219401}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c81db61f023b914e84642be2cda8943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: You're really lucky you didn't break your legs
-  _ru: "\u0422\u0435\u0431\u0435 \u0440\u0435\u0430\u043B\u044C\u043D\u043E \u043F\u043E\u0432\u0435\u0437\u043B\u043E,
-    \u0447\u0442\u043E \u0442\u044B \u043D\u0435 \u0441\u043B\u043E\u043C\u0430\u043B
-    \u043D\u043E\u0433\u0438!"
 --- !u!1 &865135480
 GameObject:
   m_ObjectHideFlags: 0
@@ -95982,7 +95537,6 @@ GameObject:
   - component: {fileID: 901255746}
   - component: {fileID: 901255748}
   - component: {fileID: 901255747}
-  - component: {fileID: 901255749}
   m_Layer: 0
   m_Name: GameObject (17)
   m_TagString: Untagged
@@ -96147,22 +95701,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &901255749
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 901255745}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c81db61f023b914e84642be2cda8943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: He looks cool! Maybe you should make friends with him?
-  _ru: "\u041E\u043D \u0432\u044B\u0433\u043B\u044F\u0434\u0435\u0442 \u043A\u043B\u0430\u0441\u0441\u043D\u044B\u043C!
-    \u041C\u043E\u0436\u0435\u0442 \u0441\u0442\u043E\u0438\u0442 \u043F\u043E\u0434\u0440\u0443\u0436\u0438\u0442\u044C\u0441\u044F
-    \u0441 \u043D\u0438\u043C?"
 --- !u!1 &901699189
 GameObject:
   m_ObjectHideFlags: 0
@@ -96174,7 +95712,6 @@ GameObject:
   - component: {fileID: 901699190}
   - component: {fileID: 901699192}
   - component: {fileID: 901699191}
-  - component: {fileID: 901699193}
   m_Layer: 0
   m_Name: GameObject (27)
   m_TagString: Untagged
@@ -96340,23 +95877,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &901699193
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 901699189}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c81db61f023b914e84642be2cda8943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: You're almost there, you need to go back for the lever to complete your journey!
-  _ru: "\u0422\u044B \u043F\u043E\u0447\u0442\u0438 \u043F\u0440\u043E\u0448\u0435\u043B!
-    \u041D\u043E \u043A\u0430\u0436\u0435\u0442\u0441\u044F \u043D\u0443\u0436\u043D\u043E
-    \u0432\u0435\u0440\u043D\u0443\u0442\u0441\u044F \u043D\u0430\u0437\u0430\u0434
-    \u0437\u0430 \u0440\u044B\u0447\u0430\u0433\u043E\u043C!"
 --- !u!1 &906550143
 GameObject:
   m_ObjectHideFlags: 0
@@ -97004,7 +96524,6 @@ GameObject:
   - component: {fileID: 1025482681}
   - component: {fileID: 1025482683}
   - component: {fileID: 1025482682}
-  - component: {fileID: 1025482684}
   m_Layer: 0
   m_Name: GameObject (13)
   m_TagString: Untagged
@@ -97169,21 +96688,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1025482684
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1025482680}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c81db61f023b914e84642be2cda8943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: You need to be fast
-  _ru: "\u0422\u0435\u0431\u0435 \u043D\u0443\u0436\u043D\u043E \u0431\u044B\u0442\u044C
-    \u0431\u044B\u0441\u0442\u0440\u044B\u043C!"
 --- !u!1 &1029755938
 GameObject:
   m_ObjectHideFlags: 0
@@ -97324,7 +96828,6 @@ GameObject:
   - component: {fileID: 1051864237}
   - component: {fileID: 1051864239}
   - component: {fileID: 1051864238}
-  - component: {fileID: 1051864240}
   m_Layer: 0
   m_Name: GameObject (18)
   m_TagString: Untagged
@@ -97489,20 +96992,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1051864240
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1051864236}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c81db61f023b914e84642be2cda8943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: Or not...
-  _ru: "\u0418\u043B\u0438 \u043D\u0435\u0442..."
 --- !u!1 &1068953259
 GameObject:
   m_ObjectHideFlags: 0
@@ -97546,7 +97035,6 @@ GameObject:
   - component: {fileID: 1089657557}
   - component: {fileID: 1089657559}
   - component: {fileID: 1089657558}
-  - component: {fileID: 1089657560}
   m_Layer: 0
   m_Name: GameObject (24)
   m_TagString: Untagged
@@ -97711,21 +97199,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1089657560
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1089657556}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c81db61f023b914e84642be2cda8943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: Don't try to climb this mountain!
-  _ru: "\u0414\u0430\u0436\u0435 \u043D\u0435 \u043F\u044B\u0442\u0430\u0439\u0441\u044F
-    \u0437\u0430\u043B\u0435\u0437\u0442\u044C \u043D\u0430 \u044D\u0442\u0443 \u043B\u0435\u0441\u0442\u043D\u0438\u0446\u0443!"
 --- !u!1 &1103711703
 GameObject:
   m_ObjectHideFlags: 0
@@ -98144,7 +97617,6 @@ GameObject:
   - component: {fileID: 1135817171}
   - component: {fileID: 1135817173}
   - component: {fileID: 1135817172}
-  - component: {fileID: 1135817174}
   m_Layer: 5
   m_Name: SoundText
   m_TagString: Untagged
@@ -98204,7 +97676,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0413\u0440\u043E\u043C\u043A\u043E\u0441\u0442\u044C"
+  m_Text: Master Volume
 --- !u!222 &1135817173
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -98213,20 +97685,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1135817170}
   m_CullTransparentMesh: 1
---- !u!114 &1135817174
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1135817170}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95d80c2767ca1514f8489bfcad7a12e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: Volume
-  _ru: "\u0413\u0440\u043E\u043C\u043A\u043E\u0441\u0442\u044C"
 --- !u!1 &1143530727
 GameObject:
   m_ObjectHideFlags: 0
@@ -98544,7 +98002,6 @@ GameObject:
   - component: {fileID: 1155056652}
   - component: {fileID: 1155056654}
   - component: {fileID: 1155056653}
-  - component: {fileID: 1155056655}
   m_Layer: 0
   m_Name: GameObject (10)
   m_TagString: Untagged
@@ -98709,23 +98166,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1155056655
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1155056651}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c81db61f023b914e84642be2cda8943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: It seems the evil putties are using their magic to erase our ink!
-  _ru: "\u041A\u0430\u0436\u0435\u0442\u0441\u044F \u0437\u043B\u044B\u0435 \u0437\u0430\u043C\u0430\u0437\u043A\u0438
-    \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u044E\u0442 \u0441\u0432\u043E\u044E
-    \u043C\u0430\u0433\u0438\u044E \u0447\u0442\u043E\u0431\u044B \u0441\u0442\u0438\u0440\u0430\u0442\u044C
-    \u0442\u0432\u043E\u0438 \u0447\u0435\u0440\u043D\u0438\u043B\u0430!"
 --- !u!1 &1169756256
 GameObject:
   m_ObjectHideFlags: 0
@@ -98932,7 +98372,6 @@ GameObject:
   - component: {fileID: 1181358046}
   - component: {fileID: 1181358048}
   - component: {fileID: 1181358047}
-  - component: {fileID: 1181358049}
   m_Layer: 0
   m_Name: GameObject (14)
   m_TagString: Untagged
@@ -99097,21 +98536,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1181358049
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1181358045}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c81db61f023b914e84642be2cda8943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: How high! It's going to be fun
-  _ru: "\u041A\u0430\u043A \u0432\u044B\u0441\u043E\u043A\u043E! \u042D\u0442\u043E
-    \u0431\u0443\u0434\u0435\u0442 \u0432\u0435\u0441\u0435\u043B\u043E"
 --- !u!1 &1229281699
 GameObject:
   m_ObjectHideFlags: 0
@@ -99155,7 +98579,6 @@ GameObject:
   - component: {fileID: 1237395190}
   - component: {fileID: 1237395192}
   - component: {fileID: 1237395191}
-  - component: {fileID: 1237395193}
   m_Layer: 0
   m_Name: GameObject (21)
   m_TagString: Untagged
@@ -99320,21 +98743,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1237395193
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1237395189}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c81db61f023b914e84642be2cda8943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: It seems he's here somewhere!
-  _ru: "\u041A\u0430\u0436\u0435\u0442\u0441\u044F \u043E\u043D \u0433\u0434\u0435-\u0442\u043E
-    \u0437\u0434\u0435\u0441\u044C!"
 --- !u!1 &1260066334
 GameObject:
   m_ObjectHideFlags: 0
@@ -99731,7 +99139,6 @@ GameObject:
   - component: {fileID: 1378384198}
   - component: {fileID: 1378384200}
   - component: {fileID: 1378384199}
-  - component: {fileID: 1378384201}
   m_Layer: 0
   m_Name: GameObject (3)
   m_TagString: Untagged
@@ -99897,25 +99304,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1378384201
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1378384197}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c81db61f023b914e84642be2cda8943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: It seems too high! Try to press the spacebar next to edge of the obstacle
-    to climb on it
-  _ru: "\u042D\u0442\u043E \u043E\u0447\u0435\u043D\u044C \u0432\u044B\u0441\u043E\u043A\u043E!
-    \u041F\u043E\u043F\u0440\u043E\u0431\u0443\u0439 \u043D\u0430\u0436\u0430\u0442\u044C
-    \u043F\u0440\u044B\u0436\u043E\u043A, \u043D\u0430 \u0443\u0433\u043B\u0435 \u043F\u0440\u0435\u043F\u044F\u0442\u0441\u0442\u0432\u0438\u044F
-    \u0447\u0442\u043E\u0431\u044B \u0437\u0430\u0431\u0440\u0430\u0442\u044C\u0441\u044F
-    \u043D\u0430 \u043D\u0435\u0433\u043E"
 --- !u!1 &1380734610
 GameObject:
   m_ObjectHideFlags: 0
@@ -101315,7 +100703,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: 0}
+  m_SizeDelta: {x: 20, y: 16.2098}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1567295890
 MonoBehaviour:
@@ -101337,7 +100725,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 5370864544077139013, guid: a688f15ce289d674e99130a553ec6c0f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -101366,7 +100754,6 @@ GameObject:
   - component: {fileID: 1577055720}
   - component: {fileID: 1577055722}
   - component: {fileID: 1577055721}
-  - component: {fileID: 1577055723}
   m_Layer: 0
   m_Name: GameObject (30)
   m_TagString: Untagged
@@ -101531,21 +100918,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1577055723
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1577055719}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c81db61f023b914e84642be2cda8943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: Thanks for playing! You're really strong!
-  _ru: "\u0421\u043F\u0430\u0441\u0438\u0431\u043E \u0437\u0430 \u0438\u0433\u0440\u0443!
-    \u0422\u044B \u0438 \u0432\u043F\u0440\u0430\u0432\u0434\u0443 \u0441\u0438\u043B\u0435\u043D!"
 --- !u!1 &1579192576
 GameObject:
   m_ObjectHideFlags: 0
@@ -101589,7 +100961,6 @@ GameObject:
   - component: {fileID: 1598948610}
   - component: {fileID: 1598948612}
   - component: {fileID: 1598948611}
-  - component: {fileID: 1598948613}
   m_Layer: 0
   m_Name: GameObject (15)
   m_TagString: Untagged
@@ -101754,22 +101125,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1598948613
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1598948609}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c81db61f023b914e84642be2cda8943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: This is a lever, try to use it to open the door
-  _ru: "\u042D\u0442\u043E \u0440\u044B\u0447\u0430\u0433, \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0439
-    \u0435\u0433\u043E \u0447\u0442\u043E\u0431\u044B \u043E\u0442\u043A\u0440\u044B\u0442\u044C
-    \u0434\u0432\u0435\u0440\u044C"
 --- !u!1 &1612185581
 GameObject:
   m_ObjectHideFlags: 0
@@ -101781,7 +101136,6 @@ GameObject:
   - component: {fileID: 1612185582}
   - component: {fileID: 1612185584}
   - component: {fileID: 1612185583}
-  - component: {fileID: 1612185585}
   m_Layer: 0
   m_Name: GameObject (8)
   m_TagString: Untagged
@@ -101946,21 +101300,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1612185585
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1612185581}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c81db61f023b914e84642be2cda8943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: It seems there is a platform somewhere below!
-  _ru: "\u041A\u0430\u0436\u0435\u0442\u0441\u044F \u043F\u043B\u0430\u0442\u0444\u043E\u0440\u043C\u0430
-    \u0433\u0434\u0435-\u0442\u043E \u0441\u043D\u0438\u0437\u0443!"
 --- !u!1 &1617250007
 GameObject:
   m_ObjectHideFlags: 0
@@ -104475,81 +103814,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1 &1732060950
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1732060951}
-  - component: {fileID: 1732060953}
-  - component: {fileID: 1732060952}
-  m_Layer: 5
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1732060951
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1732060950}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.8804292, y: 0.8804292, z: 0.8804292}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1839147120}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -100.999985, y: -2}
-  m_SizeDelta: {x: 86.056, y: 71.272}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1732060952
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1732060950}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 1438654142220854169, guid: c558321b8d3c62241a19b94ad01cd24a, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1732060953
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1732060950}
-  m_CullTransparentMesh: 1
 --- !u!1 &1758227943
 GameObject:
   m_ObjectHideFlags: 0
@@ -104614,7 +103878,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1732060951}
   - {fileID: 349781360}
   m_Father: {fileID: 439872277}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -104728,7 +103991,6 @@ GameObject:
   - component: {fileID: 1853284647}
   - component: {fileID: 1853284649}
   - component: {fileID: 1853284648}
-  - component: {fileID: 1853284650}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -104788,7 +104050,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041D\u0430\u0437\u0430\u0434"
+  m_Text: Back
 --- !u!222 &1853284649
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -104797,20 +104059,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1853284646}
   m_CullTransparentMesh: 1
---- !u!114 &1853284650
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1853284646}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95d80c2767ca1514f8489bfcad7a12e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: Back
-  _ru: "\u041D\u0430\u0437\u0430\u0434"
 --- !u!1 &1897000511
 GameObject:
   m_ObjectHideFlags: 0
@@ -104963,7 +104211,6 @@ GameObject:
   - component: {fileID: 1911511976}
   - component: {fileID: 1911511978}
   - component: {fileID: 1911511977}
-  - component: {fileID: 1911511979}
   m_Layer: 0
   m_Name: GameObject (6)
   m_TagString: Untagged
@@ -105129,23 +104376,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1911511979
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1911511975}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c81db61f023b914e84642be2cda8943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: Do you really think falling in there  is a good idea?  Okay, just be careful!
-  _ru: "\u0422\u044B \u0440\u0435\u0430\u043B\u044C\u043D\u043E \u0434\u0443\u043C\u0430\u0435\u0448\u044C
-    \u0447\u0442\u043E \u043F\u0430\u0434\u0430\u0442\u044C \u0442\u0443\u0434\u0430
-    \u0445\u043E\u0440\u043E\u0448\u0430\u044F \u0438\u0434\u0435\u044F? \u041E\u043A\u0435\u0439,
-    \u0431\u0443\u0434\u044C \u043E\u0441\u0442\u043E\u0440\u043E\u0436\u0435\u043D!"
 --- !u!1 &1914347848
 GameObject:
   m_ObjectHideFlags: 0
@@ -105157,7 +104387,6 @@ GameObject:
   - component: {fileID: 1914347849}
   - component: {fileID: 1914347851}
   - component: {fileID: 1914347850}
-  - component: {fileID: 1914347852}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -105217,7 +104446,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
+  m_Text: Settings
 --- !u!222 &1914347851
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -105226,20 +104455,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1914347848}
   m_CullTransparentMesh: 1
---- !u!114 &1914347852
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1914347848}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95d80c2767ca1514f8489bfcad7a12e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: Settings
-  _ru: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
 --- !u!1 &1916811485
 GameObject:
   m_ObjectHideFlags: 0
@@ -106111,7 +105326,6 @@ GameObject:
   - component: {fileID: 2044420695}
   - component: {fileID: 2044420697}
   - component: {fileID: 2044420696}
-  - component: {fileID: 2044420698}
   m_Layer: 0
   m_Name: GameObject (1)
   m_TagString: Untagged
@@ -106276,22 +105490,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &2044420698
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2044420694}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c81db61f023b914e84642be2cda8943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: It's really easy parkour, just finish it
-  _ru: "\u042D\u0442\u043E \u043E\u0447\u0435\u043D\u044C \u043B\u0451\u0433\u043A\u0438\u0439
-    \u043F\u0430\u0440\u043A\u0443\u0440! \u041F\u0440\u043E\u0441\u0442\u043E \u043F\u0440\u043E\u0439\u0434\u0438
-    \u0435\u0433\u043E"
 --- !u!1 &2049998996
 GameObject:
   m_ObjectHideFlags: 0
@@ -107149,7 +106347,6 @@ GameObject:
   - component: {fileID: 2091929445}
   - component: {fileID: 2091929447}
   - component: {fileID: 2091929446}
-  - component: {fileID: 2091929448}
   m_Layer: 0
   m_Name: GameObject (22)
   m_TagString: Untagged
@@ -107314,21 +106511,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &2091929448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2091929444}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c81db61f023b914e84642be2cda8943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _en: It seems he's here somewhere!
-  _ru: "\u041A\u0430\u0436\u0435\u0442\u0441\u044F \u043E\u043D \u0433\u0434\u0435-\u0442\u043E
-    \u0437\u0434\u0435\u0441\u044C!"
 --- !u!1 &2130507189
 GameObject:
   m_ObjectHideFlags: 0
@@ -107618,5 +106800,3 @@ SceneRoots:
   - {fileID: 1172617205}
   - {fileID: 675646813}
   - {fileID: 1302570686}
-  - {fileID: 842930380}
-  - {fileID: 73087832}

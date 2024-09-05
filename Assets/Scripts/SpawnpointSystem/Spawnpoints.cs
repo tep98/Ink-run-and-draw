@@ -16,7 +16,7 @@ public class Spawnpoints : MonoBehaviour
 
     private void Start()
     {
-        currentPointIndex = Progress.Instance.PlayerInfo.Spawnpoint;
+        currentPointIndex = 0;
         currentPoint = spawnPoint[currentPointIndex];
     }
 

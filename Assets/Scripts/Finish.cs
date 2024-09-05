@@ -13,7 +13,6 @@ public class Finish : MonoBehaviour
     }
     public void OnLevelComplete()
     {
-        LevelProgressManager.SaveMaxLevel(nextLevelNumber);
         SceneManager.LoadScene("MainMenu");
     }
 }
